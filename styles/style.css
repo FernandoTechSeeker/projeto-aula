@@ -1,0 +1,86 @@
+/* Importa a fonte do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700&display=swap");
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estiliza o HTML */
+html {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    background-color: rgb(71, 116, 91);
+}
+
+/* Corpo da página */
+body {
+    background-color: rgba(127, 255, 206, 0.645);
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 32px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.457);
+    padding: 20px 0;
+    color: rgb(2, 43, 29);
+}
+
+/* Imagem */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+/* Subtítulo */
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Parágrafos e lista */
+p, li {
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+/* Botão */
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #004499;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
